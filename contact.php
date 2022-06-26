@@ -52,12 +52,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto mt-1">
-            <a class="nav-link" aria-current="page" href="index.html"
+            <a class="nav-link" aria-current="page" href="index.php"
               >Beranda</a
             >
-            <a class="nav-link" href="dokumentasi.html">Dokumentasi</a>
-            <a class="nav-link" href="kemahasiswaan.html">Kemahasiswaan</a>
-            <a class="nav-link" href="akademik.html">Akademik</a>
+            <a class="nav-link" href="dokumentasi.php">Dokumentasi</a>
+            <a class="nav-link" href="kemahasiswaan.php">Kemahasiswaan</a>
+            <a class="nav-link" href="akademik.php">Akademik</a>
             <a class="nav-link active" href="contact.php">Contact Us</a>
           </div>
         </div>
