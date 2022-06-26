@@ -1,0 +1,357 @@
+.navbar {
+  background-color: rgb(96, 102, 102);
+  border-bottom: 3px solid #cc1616;
+}
+
+.navbar-toggler {
+  color: #fff;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar-nav a {
+  font-size: 15px;
+  margin-right: 25px;
+  border-right: 1.5px solid #cc1616;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.664);
+}
+
+.navbar-nav .nav-link.active {
+  color: #cc1616 !important;
+}
+
+.nav-link.active::after,
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #cc1616;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.nav-link:hover {
+  color: #cc1616;
+}
+
+.FSI-logo {
+  width: 280px;
+  margin-left: 10px;
+}
+
+section {
+  margin-top: 10%;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.welcome {
+  margin-left: 20px;
+  color: #fff;
+  position: absolute;
+}
+
+.welcome a {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 10px 28px;
+  transition: 0.4s;
+  border: 2px solid #fff;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+.welcome h1,
+h3 {
+  text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+.welcome b,
+.about b {
+  color: #cc1616;
+}
+
+.welcome a:hover {
+  background-color: #b91919;
+}
+
+.visi-judul {
+  background-color: rgb(96, 102, 102);
+  color: #fff;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  opacity: 0;
+  transition: 0.8s;
+  transform: translate(0, -60px);
+}
+
+.visi-judul.masuk {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.visi-misi h2 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.658);
+}
+
+.misi,
+.visi {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.349);
+  color: #000;
+  opacity: 0;
+  transition: 1s;
+  transform: translate(-110px, 0);
+}
+
+.misi {
+  transform: translate(110px, 0);
+}
+
+.misi.trans-in,
+.visi.trans-in {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.carousel-caption {
+  color: rgb(255, 255, 255);
+  font-size: 90%;
+  background-color: rgba(0, 0, 0, 0.555);
+  padding: auto;
+  border-left: 8px solid #cc1616;
+}
+
+.input-group-text,
+.btn {
+  color: #fff !important;
+  font-weight: bolder;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.884);
+}
+
+.btn {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.644);
+}
+
+.about {
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.562);
+  color: #fff;
+  border-left: 8px solid #cc1616;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.884);
+  padding-top: 20px;
+}
+
+.about-main {
+  background-image: url(../img/2.jpeg);
+  margin-top: -100px;
+  padding: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kontak {
+  background-color: rgba(0, 0, 0, 0.568);
+  padding: 80px;
+  padding-top: 40px;
+}
+
+.kontak b {
+  color: #eaeaea;
+}
+
+.kontak h3 {
+  color: #cc1616;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+  border-bottom: 3px solid#cc1616;
+  padding-bottom: 15px;
+}
+
+.layanan .card {
+  opacity: 0;
+  transition: 0.8s;
+  transform: translate(0, -100px);
+}
+
+.layanan .card.transisi {
+  opacity: 1;
+  transition: 0.8s;
+  transform: translate(0, 0);
+  border: 2px solid #cc1616;
+}
+
+.layanan h4,
+.layanan h5 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.349);
+}
+
+.layanan h4 {
+  border-bottom: 3px solid #cc1616;
+  padding-bottom: 10px;
+  transition: 1s;
+  transform: translate(-110px, 0);
+  opacity: 0;
+}
+
+.layanan h4.slide-masuk {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.layanan .card-title {
+  border-bottom: 3px solid #cc1616;
+  padding-bottom: 10px;
+}
+
+.layanan .card-body .card-text {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.219);
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.568);
+  background-image: url(../img/2.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 30vh;
+  background-position: 0 90px;
+  opacity: 0.8;
+  color: #fff;
+  text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.733);
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.bxl-whatsapp:hover {
+  color: rgb(39, 202, 17);
+}
+
+.bxl-instagram:hover {
+  color: rgb(212, 28, 166);
+}
+
+.bxl-facebook-square:hover {
+  color: rgb(14, 102, 202);
+}
+
+.bxl-whatsapp,
+.bxl-instagram,
+.bxl-facebook-square {
+  font-size: 250%;
+}
+
+.header-akademik h2,
+.dokumentasi h4 {
+  border-bottom: 3px solid#cc1616;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.432);
+}
+
+.card-title {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.267);
+}
+
+.card img {
+  width: 60%;
+}
+
+.kalender img {
+  width: 95%;
+}
+
+.kalender h4 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.705);
+  border-bottom: 3px solid #cc1616;
+  padding-bottom: 15px;
+}
+
+.daftar-main {
+  background-image: url(../img/daftar.jpg);
+  background-attachment: fixed;
+  margin-top: -100px;
+  padding: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.daftar-main .col-4 p {
+  background-color: #cc161688;
+  padding: 19px;
+  border-radius: 15px;
+}
+
+#emailHelp {
+  color: #fff;
+  font-size: 15px;
+  padding: 1%;
+}
+
+.labelForm {
+  color: #fff;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  font-weight: bolder;
+}
+
+.submitDaftar {
+  box-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.footer-kontak {
+  color: #fff;
+  font-size: 15px;
+}
+
+.about-footer {
+  background-image: url(../img/1\ -\ Copy.png);
+  background-position: 0 250px;
+  height: 20vh;
+}
+
+.col-6 img {
+  width: 70%;
+}
+
+.prodi .row .col-lg-3 .card:hover {
+  box-shadow: 6px 8px 4px rgba(0, 0, 0, 0.363);
+  border: 2px solid #cc1616;
+}
+
+.kemahasiswaan {
+  background-image: url(../img/First\ Slide.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.mhsw {
+  background-color: rgba(0, 0, 0, 0.39);
+  padding-top: 30px;
+}
+
+.mhsw .mhsw-judul h4 {
+  color: #fff;
+  font-weight: bolder;
+  border-bottom: 3px solid #cc1616;
+  padding-bottom: 20px;
+  text-shadow: 3px 4px 3px rgb(0, 0, 0);
+}
+
+.mhsw .card .card-body .card-title {
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.671);
+}
