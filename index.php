@@ -41,12 +41,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto mt-1">
-            <a class="nav-link active" aria-current="page" href="index.html"
+            <a class="nav-link active" aria-current="page" href="index.php"
               >Beranda</a
             >
-            <a class="nav-link" href="dokumentasi.html">Dokumentasi</a>
-            <a class="nav-link" href="kemahasiswaan.html">Kemahasiswaan</a>
-            <a class="nav-link" href="akademik.html">Akademik</a>
+            <a class="nav-link" href="dokumentasi.php">Dokumentasi</a>
+            <a class="nav-link" href="kemahasiswaan.php">Kemahasiswaan</a>
+            <a class="nav-link" href="akademik.php">Akademik</a>
             <a class="nav-link" href="contact.php">Contact Us</a>
           </div>
         </div>
@@ -62,7 +62,7 @@
             <b>Informatika!</b> <br />
           </h1>
           <h3>Universitas <b>Jendral</b> Achmad <b>Yani</b> <br /></h3>
-          <a href="about.html">Selengkapnya</a>
+          <a href="about.php">Selengkapnya</a>
           <a href="daftar.php" class="ms-3">Daftar</a>
         </div>
       </div>
